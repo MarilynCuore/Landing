@@ -54,6 +54,11 @@ body *::selection {
 }
 
 /*Nav*/
+header {
+  z-index: 1000000;
+  position: relative;
+}
+
 header .main-nav {
   width: 100%;
   background: transparent;
