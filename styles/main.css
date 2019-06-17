@@ -388,4 +388,11 @@ footer .logo {
   padding-left: 0.5rem;
   color: rgba(255, 255, 255, 0.5);
 }
+
+/**Mobile media query*/
+@media screen and (max-width: 600px) {
+  .parallax-content {
+    min-width: 100% !important;
+  }
+}
 /*# sourceMappingURL=main.css.map */
