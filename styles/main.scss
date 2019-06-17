@@ -8,7 +8,7 @@ body * {
   border: 0px;
   margin: 0px;
   font-family: $font;
-  overflow-y: hidden;
+  // overflow-y: hidden;
   color: $color-typ;
   /*Selection*/
   &::selection {
@@ -198,10 +198,17 @@ header {
         input {
           border: 1px solid white;
           border-radius: 5px;
+          padding-left: 1em;
+          color: white;
+          box-shadow: 0 1px 0 0 transparent;
+          &:hover + label {
+            color: white;
+            box-shadow: 0 1px 0 0 white;
+          }
         }
         label {
-          top: -35px;
-          color: white;
+          top: -5px;
+          color: white !important;
         }
       }
     }

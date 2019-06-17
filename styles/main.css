@@ -39,7 +39,6 @@ body * {
   border: 0px;
   margin: 0px;
   font-family: "Raleway", sans-serif;
-  overflow-y: hidden;
   color: #241c15;
   /*Selection*/
 }
@@ -252,11 +251,21 @@ header .main-nav .main-nav__wrapper ul li a div i {
 .orange .form-input .row .input-field input {
   border: 1px solid white;
   border-radius: 5px;
+  padding-left: 1em;
+  color: white;
+  -webkit-box-shadow: 0 1px 0 0 transparent;
+          box-shadow: 0 1px 0 0 transparent;
+}
+
+.orange .form-input .row .input-field input:hover + label {
+  color: white;
+  -webkit-box-shadow: 0 1px 0 0 white;
+          box-shadow: 0 1px 0 0 white;
 }
 
 .orange .form-input .row .input-field label {
-  top: -35px;
-  color: white;
+  top: -5px;
+  color: white !important;
 }
 
 /*Footer*/
