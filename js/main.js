@@ -3,7 +3,7 @@ const nav = document.querySelector('.main-nav');
 const nav_height = nav.getBoundingClientRect().height
 window.addEventListener('scroll', e => {
     let current_scroll = window.pageYOffset
-    console.log(current_scroll, nav_height)
+   
     if(current_scroll > nav_height) nav.classList.add('float')
     else if(current_scroll < nav_height) nav.classList.remove('float')
 })
@@ -15,4 +15,11 @@ document.addEventListener('DOMContentLoaded', function() {
     M.Sidenav.init(document.querySelectorAll('.sidenav'), {edge: 'right'});
   });
 //Ancla
-var scroll = new SmoothScroll('a[href*="#"]');
+const options = {
+  offset: function (anchor, toggle) {
+    console.log('Aquí')
+    return 50
+	},
+}
+var scroll = new SmoothScroll('a[href*="#"]', options);
+
