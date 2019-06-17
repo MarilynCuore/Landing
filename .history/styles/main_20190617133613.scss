@@ -276,7 +276,7 @@ footer {
     height: 100px;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 50px;
+    background-size: 5%;
   }
 }
 /*Label inputs*/
@@ -290,7 +290,7 @@ footer {
 }
 /**Mobile media query*/
 @media screen and (max-width: 600px) {
-  .white {
+  .parallax-content {
     min-width: 100% !important;
   }
   .main-nav__wrapper {
