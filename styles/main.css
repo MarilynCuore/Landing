@@ -335,6 +335,7 @@ header .main-nav .main-nav__wrapper ul li a div i {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding-bottom: 2rem;
 }
 
 .orange .actions .btn {
