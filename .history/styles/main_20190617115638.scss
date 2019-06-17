@@ -237,6 +237,7 @@ header {
     padding-bottom: 1rem;
     padding-top: 2rem;
     padding-bottom: 3rem;
+
   }
   .form-input {
     .row {
@@ -260,14 +261,6 @@ header {
           color: white !important;
         }
       }
-    }
-  }
-  .actions {
-    display: flex;
-    justify-content: center;
-    .btn {
-      box-shadow: none;
-      background-color: $color-primary;
     }
   }
 }
