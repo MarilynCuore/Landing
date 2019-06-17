@@ -12,6 +12,7 @@ window.addEventListener('scroll', e => {
 document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.parallax');
     var instances = M.Parallax.init(elems);
+    M.Sidenav.init(document.querySelectorAll('.sidenav'), {edge: 'right'});
   });
 //Ancla
 var scroll = new SmoothScroll('a[href*="#"]');

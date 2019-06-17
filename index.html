@@ -14,9 +14,13 @@
 </head>
 
 <body>
+    <ul id="slide-out" class="sidenav" style="z-index: 1000000000;">
+        <li><a class="sidenav-close" data-scroll href="#services">Servicios</a></li>
+    </ul>
     <header>
         <!--Nav-->
         <div class="main-nav">
+           
             <div class="main-nav__wrapper container">
                 <ul>
                     <li><a href="">
@@ -24,10 +28,11 @@
                         </a></li>
                 </ul>
                 <ul>
-                    <li><a data-scroll href="#services">Servicios</a></li>
-                    <li><a data-scroll href="#contact">Contanto</a></li>
-                    <li><a href="">Tienda</a></li>
-                    <li>
+                    <li>  <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="fas fa-bars"></i></a> </li>
+                    <li class="hide-on-small-only"><a data-scroll href="#services">Servicios</a></li>
+                    <li class="hide-on-small-only"><a data-scroll href="#contact">Contanto</a></li>
+                    <li class="hide-on-small-only"><a href="">Tienda</a></li>
+                    <li class="hide-on-small-only">
                         <a href="">
                             <div> <i class="fas fa-paw"></i></div>
                         </a>
