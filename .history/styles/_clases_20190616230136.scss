@@ -1,0 +1,27 @@
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+.container-min {
+  max-width: 80%;
+  margin: 0 auto;
+}
+.float {
+  z-index: 22;
+  transition: 500ms;
+  width: 100%;
+  background: white;
+  border-bottom: solid 1px #e6e6e6;
+  height: 5rem;
+  ul {
+    li {
+      a {
+        color: $color-typ;
+      }
+    }
+  }
+}
+.parallax-container {
+  height: 90vh;
+}
+

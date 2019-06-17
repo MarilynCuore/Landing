@@ -1,0 +1,34 @@
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+.container-min {
+  max-width: 70%;
+  margin: 0 auto;
+}
+.float {
+  z-index: 22;
+  transition: 500ms;
+  width: 100%;
+  background: white;
+  border-bottom: solid 1px #e6e6e6;
+  height: 5rem;
+  ul {
+    li {
+      a {
+        color: black;
+      }
+    }
+  }
+}
+.parallax-container {
+  height: 300px;
+}
+.input-field {
+  input[type="text"] {
+    &::placeholder {
+      padding-left: 0.5rem;
+      color: rgba(white, 0.5);
+    }
+  }
+}
