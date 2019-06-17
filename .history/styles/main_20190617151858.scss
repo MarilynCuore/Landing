@@ -238,7 +238,7 @@ header {
       padding-bottom: 0.5rem;
       .input-field {
         margin-top: 0px;
-        margin-bottom: 1.2em;
+        margin-bottom: 0px;
         input {
           border: 1px solid white;
           border-radius: 5px;
@@ -304,17 +304,6 @@ footer {
           i {
             font-size: 1.5rem;
             color: white;
-          }
-        }
-      }
-    }
-  }
-  .float {
-    ul {
-      li {
-        a {
-          i {
-            color: black !important;
           }
         }
       }

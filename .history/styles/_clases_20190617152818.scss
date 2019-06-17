@@ -1,0 +1,34 @@
+/*Container*/
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+/*Container min*/
+.container-min {
+  max-width: 80%;
+  margin: 0 auto;
+}
+/*Nav float*/
+.float {
+  z-index: 22;
+  transition: 500ms;
+  width: 100%;
+  background: white !important;
+  border-bottom: solid 1px #e6e6e6;
+  height: 5rem;
+  ul {
+    li {
+      a {
+        color: black !important;
+        i{
+            color: black !important;
+        }
+      }
+    }
+  }
+}
+/*Parallax*/
+.parallax-container {
+  height: 95vh;
+}
+

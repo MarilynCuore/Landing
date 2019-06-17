@@ -323,7 +323,7 @@ header .main-nav .main-nav__wrapper ul li a div i {
 
 .orange .form-input .row .input-field {
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 1.2em;
 }
 
 .orange .form-input .row .input-field input {
@@ -396,7 +396,7 @@ footer .logo {
 
 /**Mobile media query*/
 @media screen and (max-width: 600px) {
-  .parallax-container {
+  .parallax-content {
     text-align: center;
   }
   .white {
@@ -408,6 +408,9 @@ footer .logo {
   .main-nav__wrapper ul li a i {
     font-size: 1.5rem;
     color: white;
+  }
+  .float ul li a i {
+    color: black !important;
   }
 }
 /*# sourceMappingURL=main.css.map */
