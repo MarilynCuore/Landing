@@ -17,13 +17,13 @@
   -webkit-transition: 500ms;
   transition: 500ms;
   width: 100%;
-  background: white;
+  background: white !important;
   border-bottom: solid 1px #e6e6e6;
   height: 5rem;
 }
 
 .float ul li a {
-  color: black;
+  color: black !important;
 }
 
 /*Parallax*/
@@ -39,18 +39,17 @@ body * {
   border: 0px;
   margin: 0px;
   font-family: "Raleway", sans-serif;
-  overflow-y: hidden;
   color: #241c15;
   /*Selection*/
 }
 
 body *::-moz-selection {
-  background: #e7511d;
+  background: #f29400;
   color: white;
 }
 
 body *::selection {
-  background: #e7511d;
+  background: #f29400;
   color: white;
 }
 
@@ -89,6 +88,12 @@ header .main-nav .main-nav__wrapper ul:nth-of-type(1) li a img {
 header .main-nav .main-nav__wrapper ul li {
   list-style: none;
   padding-right: 3.125rem;
+}
+
+header .main-nav .main-nav__wrapper ul li:nth-of-type(2) a {
+  color: #f29400;
+  font-weight: bold;
+  font-size: 1.1rem;
 }
 
 header .main-nav .main-nav__wrapper ul li a {
@@ -132,6 +137,59 @@ header .main-nav .main-nav__wrapper ul li a div {
 header .main-nav .main-nav__wrapper ul li a div i {
   color: white;
   font-size: 1.3rem;
+}
+
+.parallax-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.parallax-container:last-child .parallax-content h3 {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.parallax-container:last-child .parallax-content .actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: bold;
+}
+
+.parallax-container .parallax-content {
+  width: 100%;
+}
+
+.parallax-container .parallax-content h3 {
+  color: white;
+  font-size: 2.3rem;
+  font-weight: bold;
+}
+
+.parallax-container .parallax-content p {
+  color: white;
+  font-size: 1.3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.parallax-container .parallax-content a {
+  background-color: #f29400;
+  font-weight: bold;
+}
+
+.parallax-container .parallax img {
+  width: 100%;
 }
 
 /*Section Services*/

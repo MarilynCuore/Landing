@@ -43,13 +43,6 @@ header {
         li {
           list-style: none;
           padding-right: 3.125rem;
-          &:nth-of-type(2) {
-            a {
-              color: $lighter-orange;
-              font-weight: bold;
-              font-size: 1.1rem;
-            }
-          }
           //   &:nth-of-type(3) {
           //     a {
           //       position: relative;
@@ -100,21 +93,18 @@ header {
     }
   }
 }
-
 .parallax-container {
   display: flex;
   align-items: center;
-  &:last-child {
+  &:nth-of-type(2) {
     .parallax-content {
       h3 {
         text-align: center;
-        padding-bottom: 1rem;
+        padding-bottom: 1re;
       }
       .actions {
         display: flex;
         align-items: center;
-        justify-content: center;
-        font-weight: bold;
       }
     }
   }

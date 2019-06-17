@@ -8,6 +8,7 @@ body * {
   border: 0px;
   margin: 0px;
   font-family: $font;
+  overflow-y: hidden;
   color: $color-typ;
   /*Selection*/
   &::selection {
@@ -43,13 +44,6 @@ header {
         li {
           list-style: none;
           padding-right: 3.125rem;
-          &:nth-of-type(2) {
-            a {
-              color: $lighter-orange;
-              font-weight: bold;
-              font-size: 1.1rem;
-            }
-          }
           //   &:nth-of-type(3) {
           //     a {
           //       position: relative;
@@ -100,46 +94,24 @@ header {
     }
   }
 }
-
 .parallax-container {
   display: flex;
   align-items: center;
-  &:last-child {
-    .parallax-content {
-      h3 {
-        text-align: center;
-        padding-bottom: 1rem;
-      }
-      .actions {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-weight: bold;
-      }
-    }
-  }
   .parallax-content {
-    width: 100%;
-    h3 {
-      color: white;
-      font-size: 2.3rem;
-      font-weight: bold;
-    }
-    p {
-      color: white;
-      font-size: 1.3rem;
-      padding-top: 1rem;
-      padding-bottom: 1rem;
-    }
-    a {
-      background-color: $lighter-orange;
-      font-weight: bold;
-    }
-  }
-  .parallax {
-    img {
       width: 100%;
-    }
+      h3{
+          color:white;
+          font-size: 2.3rem;
+      }
+      p{
+        color:white;
+        font-size: 1.3rem;
+        padding-top:1rem;
+        padding-bottom:1rem;
+      }
+      a{
+          background-color: $lighter-orange;
+      }
   }
 }
 /*Section Services*/
