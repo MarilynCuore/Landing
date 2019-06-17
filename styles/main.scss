@@ -290,6 +290,9 @@ footer {
 }
 /**Mobile media query*/
 @media screen and (max-width: 600px) {
+  .parallax-container {
+    text-align: center;
+  }
   .white {
     min-width: 100% !important;
   }
