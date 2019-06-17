@@ -1,5 +1,5 @@
 /*Container*/
-@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap");
 .container {
   max-width: 90%;
   margin: 0 auto;
@@ -90,7 +90,7 @@ header .main-nav .main-nav__wrapper ul li {
   padding-right: 3.125rem;
 }
 
-header .main-nav .main-nav__wrapper ul li:nth-of-type(2) a {
+header .main-nav .main-nav__wrapper ul li:nth-of-type(3) a {
   color: #f29400;
   font-weight: bold;
   font-size: 1.1rem;
@@ -118,7 +118,7 @@ header .main-nav .main-nav__wrapper ul li a div {
   height: 40px;
   width: 40px;
   border-radius: 50%;
-  background-color: #e7511d;
+  background-color: #f29400;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -188,10 +188,6 @@ header .main-nav .main-nav__wrapper ul li a div i {
   font-weight: bold;
 }
 
-.parallax-container .parallax img {
-  width: 100%;
-}
-
 /*Section Services*/
 .white {
   padding-bottom: 3rem;
@@ -217,7 +213,7 @@ header .main-nav .main-nav__wrapper ul li a div i {
 }
 
 .white .cards-wrapper .card:nth-of-type(1) .img {
-  background-image: url("https://images.unsplash.com/photo-1518914781460-a3ada465edec?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+  background-image: url("https://res.cloudinary.com/dd0wutwfh/image/upload/v1560768056/photo-1518914781460-a3ada465edec.jpg");
   height: 223px;
   background-position: center;
   background-repeat: no-repeat;
@@ -225,7 +221,7 @@ header .main-nav .main-nav__wrapper ul li a div i {
 }
 
 .white .cards-wrapper .card:nth-of-type(2) .img {
-  background-image: url("https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80");
+  background-image: url("https://res.cloudinary.com/dd0wutwfh/image/upload/v1560768094/photo-1516734212186-a967f81ad0d7.jpg");
   height: 223px;
   background-position: center;
   background-repeat: no-repeat;
@@ -233,7 +229,7 @@ header .main-nav .main-nav__wrapper ul li a div i {
 }
 
 .white .cards-wrapper .card:nth-of-type(3) .img {
-  background-image: url("https://images.unsplash.com/photo-1535930891776-0c2dfb7fda1a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1867&q=80");
+  background-image: url("https://res.cloudinary.com/dd0wutwfh/image/upload/v1560768126/photo-1535930891776-0c2dfb7fda1a.jpg");
   height: 223px;
   background-position: center;
   background-repeat: no-repeat;
@@ -241,7 +237,7 @@ header .main-nav .main-nav__wrapper ul li a div i {
 }
 
 .white .cards-wrapper .card:nth-of-type(4) .img {
-  background-image: url("https://images.unsplash.com/photo-1522276498395-f4f68f7f8454?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1949&q=80");
+  background-image: url("https://res.cloudinary.com/dd0wutwfh/image/upload/v1560768159/photo-1522276498395-f4f68f7f8454.jpg");
   height: 223px;
   background-position: center;
   background-repeat: no-repeat;
@@ -249,7 +245,7 @@ header .main-nav .main-nav__wrapper ul li a div i {
 }
 
 .white .cards-wrapper .card:nth-of-type(5) .img {
-  background-image: url("https://images.unsplash.com/photo-1518155317743-a8ff43ea6a5f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80");
+  background-image: url("https://res.cloudinary.com/dd0wutwfh/image/upload/v1560768206/photo-1518155317743-a8ff43ea6a5f.jpg");
   height: 223px;
   background-position: center;
   background-repeat: no-repeat;
@@ -257,7 +253,7 @@ header .main-nav .main-nav__wrapper ul li a div i {
 }
 
 .white .cards-wrapper .card:nth-of-type(6) .img {
-  background-image: url("https://images.unsplash.com/photo-1415473655046-e32ca170859f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+  background-image: url("https://res.cloudinary.com/dd0wutwfh/image/upload/v1560768243/photo-1415473655046-e32ca170859f.jpg");
   height: 223px;
   background-position: center;
   background-repeat: no-repeat;
@@ -265,7 +261,7 @@ header .main-nav .main-nav__wrapper ul li a div i {
 }
 
 .white .cards-wrapper .card:nth-of-type(7) .img {
-  background-image: url("https://images.unsplash.com/photo-1551025440-840be77538c2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80");
+  background-image: url("https://res.cloudinary.com/dd0wutwfh/image/upload/v1560768276/photo-1551025440-840be77538c2.jpg");
   height: 223px;
   background-position: center;
   background-repeat: no-repeat;
@@ -281,10 +277,14 @@ header .main-nav .main-nav__wrapper ul li a div i {
 
 .white .cards-wrapper .card small {
   text-align: center;
-  color: #f29400;
+  color: #e7511d;
   font-weight: bold;
   display: block;
   font-size: 1rem;
+}
+
+.white .cards-wrapper .card small span {
+  color: #f29400;
 }
 
 .white .cards-wrapper .card p {

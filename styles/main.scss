@@ -43,28 +43,13 @@ header {
         li {
           list-style: none;
           padding-right: 3.125rem;
-          &:nth-of-type(2) {
+          &:nth-of-type(3) {
             a {
               color: $lighter-orange;
               font-weight: bold;
               font-size: 1.1rem;
             }
           }
-          //   &:nth-of-type(3) {
-          //     a {
-          //       position: relative;
-          //       &:after {
-          //         font-family: "Font Awesome 5 Free";
-          //         content: "\f107";
-          //         display: inline-block;
-          //         color: black;
-          //         padding-left: 0.62rem;
-          //         position: absolute;
-          //         font-weight: 900;
-          //         top: 0.2rem;
-          //       }
-          //     }
-          //   }
           a {
             text-decoration: none;
             color: white;
@@ -82,7 +67,7 @@ header {
               height: 40px;
               width: 40px;
               border-radius: 50%;
-              background-color: $color-primary;
+              background-color: $lighter-orange;
               display: flex;
               align-items: center;
               justify-content: center;
@@ -136,11 +121,6 @@ header {
       font-weight: bold;
     }
   }
-  .parallax {
-    img {
-      width: 100%;
-    }
-  }
 }
 /*Section Services*/
 .white {
@@ -160,7 +140,7 @@ header {
       &:nth-of-type(1) {
         .img {
           @include coverimg(
-            "https://images.unsplash.com/photo-1518914781460-a3ada465edec?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+            "https://res.cloudinary.com/dd0wutwfh/image/upload/v1560768056/photo-1518914781460-a3ada465edec.jpg",
             223px
           );
         }
@@ -168,7 +148,7 @@ header {
       &:nth-of-type(2) {
         .img {
           @include coverimg(
-            "https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80",
+            "https://res.cloudinary.com/dd0wutwfh/image/upload/v1560768094/photo-1516734212186-a967f81ad0d7.jpg",
             223px
           );
         }
@@ -176,7 +156,7 @@ header {
       &:nth-of-type(3) {
         .img {
           @include coverimg(
-            "https://images.unsplash.com/photo-1535930891776-0c2dfb7fda1a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1867&q=80",
+            "https://res.cloudinary.com/dd0wutwfh/image/upload/v1560768126/photo-1535930891776-0c2dfb7fda1a.jpg",
             223px
           );
         }
@@ -184,7 +164,7 @@ header {
       &:nth-of-type(4) {
         .img {
           @include coverimg(
-            "https://images.unsplash.com/photo-1522276498395-f4f68f7f8454?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1949&q=80",
+            "https://res.cloudinary.com/dd0wutwfh/image/upload/v1560768159/photo-1522276498395-f4f68f7f8454.jpg",
             223px
           );
         }
@@ -192,7 +172,7 @@ header {
       &:nth-of-type(5) {
         .img {
           @include coverimg(
-            "https://images.unsplash.com/photo-1518155317743-a8ff43ea6a5f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+            "https://res.cloudinary.com/dd0wutwfh/image/upload/v1560768206/photo-1518155317743-a8ff43ea6a5f.jpg",
             223px
           );
         }
@@ -200,7 +180,7 @@ header {
       &:nth-of-type(6) {
         .img {
           @include coverimg(
-            "https://images.unsplash.com/photo-1415473655046-e32ca170859f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
+            "https://res.cloudinary.com/dd0wutwfh/image/upload/v1560768243/photo-1415473655046-e32ca170859f.jpg",
             223px
           );
         }
@@ -208,7 +188,7 @@ header {
       &:nth-of-type(7) {
         .img {
           @include coverimg(
-            "https://images.unsplash.com/photo-1551025440-840be77538c2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80",
+            "https://res.cloudinary.com/dd0wutwfh/image/upload/v1560768276/photo-1551025440-840be77538c2.jpg",
             223px
           );
         }
@@ -219,12 +199,15 @@ header {
         padding-top: 0.5rem;
         font-weight: bold;
       }
-      small{
-          text-align: center;
+      small {
+        text-align: center;
+        color: $color-primary;
+        font-weight: bold;
+        display: block;
+        font-size: 1rem;
+        span {
           color: $lighter-orange;
-          font-weight: bold;
-          display: block;
-          font-size: 1rem;
+        }
       }
       p {
         text-align: center;
