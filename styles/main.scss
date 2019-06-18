@@ -49,13 +49,13 @@ header {
             a {
               color: $lighter-orange;
               font-weight: bold;
-              font-size: 1.1rem;
             }
           }
           a {
             text-decoration: none;
             color: white;
             font-family: $font;
+            font-size:1.5rem !important;
             &:hover {
               color: $color-primary;
             }
@@ -266,7 +266,8 @@ header {
       background-color: $color-primary;
     }
   }
-}
+} 
+
 /*Footer*/
 footer {
   background-color: $footer-color;
@@ -319,5 +320,8 @@ footer {
         }
       }
     }
+  }
+  .video{
+    display: none;
   }
 }
