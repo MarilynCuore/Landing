@@ -1,7 +1,6 @@
 //Nav
 const nav = document.querySelector('.main-nav');
-const nav_height = nav.getBoundingClientRect().height;
-const URL_SHOP =  document.querySelector('[name="url-shop"]').content;
+const nav_height = nav.getBoundingClientRect().height
 window.addEventListener('scroll', e => {
     let current_scroll = window.pageYOffset
    
@@ -15,9 +14,6 @@ document.addEventListener('DOMContentLoaded', function() {
     var instances = M.Parallax.init(elems);
     M.Sidenav.init(document.querySelectorAll('.sidenav'), {edge: 'right'});
     eventInput()
-    let a_shops = document.querySelectorAll('a[shop]')
-    a_shops.forEach(a => a.href = URL_SHOP);
-    messageEvent()
   });
 //Ancla
 const options = {
@@ -42,16 +38,10 @@ function eventInput(){
       })
   }) 
 }
-function messageEvent(){
-  let div = document.querySelector(".message")
-    div.addEventListener('click', evento)
-  function evento(e) {
-    if(e.target.classList.contains('close') || e.target.parentNode.classList.contains('close')){
-      div.style.display = 'none'
-      
-    }else {
-      window.location = URL_SHOP;
-    //  window.open(URL_SHOP)
-    }
-  }
+function messageevent(){
+  let message = document.querySelector('.message');
+  let span = document.querySelector('.close');
+  addEventListener('click', (e) => {
+    console.log(e.target)
+  })
 }

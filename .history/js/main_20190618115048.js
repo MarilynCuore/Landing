@@ -43,15 +43,15 @@ function eventInput(){
   }) 
 }
 function messageEvent(){
+  debugger
   let div = document.querySelector(".message")
     div.addEventListener('click', evento)
   function evento(e) {
-    if(e.target.classList.contains('close') || e.target.parentNode.classList.contains('close')){
+    if(e.target.classList.contains('close')){
       div.style.display = 'none'
       
     }else {
       window.location = URL_SHOP;
-    //  window.open(URL_SHOP)
     }
   }
 }

@@ -17,7 +17,6 @@ document.addEventListener('DOMContentLoaded', function() {
     eventInput()
     let a_shops = document.querySelectorAll('a[shop]')
     a_shops.forEach(a => a.href = URL_SHOP);
-    messageEvent()
   });
 //Ancla
 const options = {
@@ -42,16 +41,16 @@ function eventInput(){
       })
   }) 
 }
-function messageEvent(){
+function messageevent(){
   let div = document.querySelector(".message")
     div.addEventListener('click', evento)
+
   function evento(e) {
-    if(e.target.classList.contains('close') || e.target.parentNode.classList.contains('close')){
-      div.style.display = 'none'
-      
-    }else {
-      window.location = URL_SHOP;
-    //  window.open(URL_SHOP)
-    }
+  if(e.target.classList.contains('close')){
+    div.style.display = 'none'
+    
+  }else {
+    window.location = URL_SHOP;
+  }
   }
 }

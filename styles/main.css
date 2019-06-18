@@ -42,6 +42,59 @@
   overflow: hidden;
 }
 
+.message {
+  width: 160px;
+  position: fixed;
+  background: white;
+  padding: 0.5rem;
+  border-radius: 10px;
+  bottom: 1.5rem;
+  right: 1rem;
+  z-index: 1000;
+  cursor: pointer;
+}
+
+.message span {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50%;
+  right: -10px;
+  top: -13px;
+}
+
+.message span i {
+  color: #f29400;
+}
+
+.message span i:hover {
+  color: #e7511d;
+}
+
+.message img {
+  width: 100%;
+}
+
+.message p {
+  text-align: center;
+  color: #3e3e3e;
+  font-weight: bold;
+}
+
+.message p:hover {
+  color: #e7511d;
+}
+
 /*Raleway*/
 /*Background image*/
 /*Body*/
@@ -441,6 +494,9 @@ footer .logo {
     color: black !important;
   }
   .video {
+    display: none;
+  }
+  .message {
     display: none;
   }
 }
