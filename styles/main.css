@@ -64,6 +64,23 @@ body *::selection {
   color: white;
 }
 
+.right-aligned li {
+  border: solid 1px #D3D3D3;
+}
+
+.right-aligned li:nth-of-type(2), .right-aligned li:nth-of-type(3) {
+  border-top: 0px;
+}
+
+.right-aligned li a {
+  font-size: 1rem;
+  color: #3e3e3e;
+}
+
+.right-aligned li a:hover {
+  color: #f29400;
+}
+
 /*Nav*/
 header {
   z-index: 1000000;
@@ -115,7 +132,7 @@ header .main-nav .main-nav__wrapper ul li a {
   text-decoration: none;
   color: white;
   font-family: "Raleway", sans-serif;
-  font-size: 1.5rem !important;
+  font-size: 1.2rem;
 }
 
 header .main-nav .main-nav__wrapper ul li a:hover {

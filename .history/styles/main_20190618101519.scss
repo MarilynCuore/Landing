@@ -14,23 +14,15 @@ body * {
     background: $lighter-orange;
     color: white;
   }
-}
-
-.right-aligned{
-  li{
-    border: solid 1px #D3D3D3;
-    &:nth-of-type(2), &:nth-of-type(3){
-      border-top: 0px;
-    }
-    a{
-      font-size:1rem;
-      color: #3e3e3e;
-      &:hover{
-        color: $lighter-orange;
+  ul.sidenav{
+    li{
+      a{
+        font-size:1rem;
+        color: $color-primary:
       }
     }
-  }
 
+  }
 }
 /*Nav*/
 header {
@@ -72,7 +64,7 @@ header {
             text-decoration: none;
             color: white;
             font-family: $font;
-            font-size: 1.2rem;
+            font-size:1.5rem !important;
             &:hover {
               color: $color-primary;
             }

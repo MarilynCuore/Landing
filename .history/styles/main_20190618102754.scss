@@ -25,9 +25,6 @@ body * {
     a{
       font-size:1rem;
       color: #3e3e3e;
-      &:hover{
-        color: $lighter-orange;
-      }
     }
   }
 
@@ -72,7 +69,7 @@ header {
             text-decoration: none;
             color: white;
             font-family: $font;
-            font-size: 1.2rem;
+            font-size:1.5rem !important;
             &:hover {
               color: $color-primary;
             }
